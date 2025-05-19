@@ -251,8 +251,8 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-start gap-20">
             <AnimateWhenVisible className="md:w-5/12">
               <motion.div
-                className="inline-block px-5 py-3 bg-gradient-to-r from-[#ffdc60] to-[#ffcb10] text-[#292930] font-bold text-xl md:text-2xl mb-8 rounded-lg shadow-lg transform -rotate-2"
-                whileHover={{ rotate: 0 }}
+                className="inline-block px-5 py-3 bg-gradient-to-r from-[#ffdc60] to-[#ffcb10] text-[#292930] font-bold text-xl md:text-2xl mb-8 rounded-lg shadow-lg"
+                whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               >
                 WE DON'T SELL SERVICES. WE BUILD WHAT WORKS.
@@ -344,8 +344,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto relative">
           <AnimateWhenVisible className="flex justify-center mb-16">
             <motion.div
-              className="inline-block px-5 py-3 bg-[#292930] text-[#ffdc60] font-bold text-xl md:text-2xl rounded-lg shadow-lg transform rotate-1"
-              whileHover={{ rotate: 0 }}
+              className="inline-block px-5 py-3 bg-[#292930] text-[#ffdc60] font-bold text-xl md:text-2xl rounded-lg shadow-lg"
+              whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
               WHAT WORKING WITH US FEELS LIKE
@@ -436,8 +436,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto relative">
           <AnimateWhenVisible>
             <motion.div
-              className="inline-block px-5 py-3 bg-gradient-to-r from-[#ffdc60] to-[#ffcb10] text-[#292930] font-bold text-xl md:text-2xl mb-12 rounded-lg shadow-lg transform -rotate-1"
-              whileHover={{ rotate: 0 }}
+              className="inline-block px-5 py-3 bg-gradient-to-r from-[#ffdc60] to-[#ffcb10] text-[#292930] font-bold text-xl md:text-2xl mb-12 rounded-lg shadow-lg"
+              whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
               RESULTS WE DELIVER
@@ -512,8 +512,8 @@ export default function Home() {
           <div className="md:flex items-start gap-16">
             <AnimateWhenVisible className="md:w-5/12 mb-10 md:mb-0">
               <motion.div
-                className="inline-block px-5 py-3 bg-[#292930] text-[#ffdc60] font-bold text-xl md:text-2xl mb-8 rounded-lg shadow-lg transform rotate-1"
-                whileHover={{ rotate: 0 }}
+                className="inline-block px-5 py-3 bg-[#292930] text-[#ffdc60] font-bold text-xl md:text-2xl mb-8 rounded-lg shadow-lg"
+                whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               >
                 WHY CLIENTS STICK WITH US
@@ -591,8 +591,8 @@ export default function Home() {
           <div className="md:flex items-start gap-16">
             <AnimateWhenVisible className="md:w-6/12 mb-16 md:mb-0">
               <motion.div
-                className="inline-block px-5 py-3 bg-gradient-to-r from-[#ffdc60] to-[#ffcb10] text-[#292930] font-bold text-xl md:text-2xl mb-8 rounded-lg shadow-lg transform -rotate-2"
-                whileHover={{ rotate: 0 }}
+                className="inline-block px-5 py-3 bg-gradient-to-r from-[#ffdc60] to-[#ffcb10] text-[#292930] font-bold text-xl md:text-2xl mb-8 rounded-lg shadow-lg"
+                whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               >
                 LET'S GET YOU GROWING
